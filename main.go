@@ -1,6 +1,9 @@
 package main
 
-import "log"
+import (
+	"log"
+	"fmt"
+)
 
 func main() {
 	log.Printf("Hello")
