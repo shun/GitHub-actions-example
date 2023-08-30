@@ -13,6 +13,6 @@ jobs:
         run: |
           gofmt_result=$(gofmt -l .)
           if [ -n "$gofmt_result" ]; then
-            gofmt -d
+            gofmt -d .
             exit 1
           fi
