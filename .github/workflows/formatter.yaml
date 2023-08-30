@@ -16,3 +16,5 @@ jobs:
             gofmt -d .
             exit 1
           fi
+      - name: lint
+        run: go vet ./...
